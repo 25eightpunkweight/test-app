@@ -1,17 +1,17 @@
-# README
+## README
 
 This README would normally document whatever steps are necessary to get the
 application up and running.
 
 Things you may want to cover:
 
-* Needs:
+# Needs:
   - Ruby 2.7.0
   - Rails 6.0.4.4
   - yarn
   - postgresql 12
 
-* Setting it up:
+# Setting it up:
   Run these following commands in your local machine:
   
   ```sh
@@ -26,14 +26,13 @@ Things you may want to cover:
   ```
   Note here that `rails db:seed` is the one that runs the RESTClient request from reqres.in and saves it into the db.
 
-* Navigation:
+# Navigation:
   - once the rails server is now up, head onto localhost:3000
   - From here, the users datatable is immediately populated with the records from reqres.in
   - AJAX-datatables have search and sort enabled by default.
   - Each row in the table has an edit link
   - At the bottom, there is a link to create a new user
 
-* Unit Testing:
+# Unit Testing:
   - run `bundle exec rspec` to run the unit tests on the `User` model.
 * ...
-# test-app
