@@ -5,6 +5,9 @@ application up and running.
 
 Things you may want to cover:
 
+# Live environment
+  you can try out this app without setting it up locally, try https://immense-badlands-93945.herokuapp.com/ to see it!
+
 # Needs:
   - Ruby 2.7.0
   - Rails 6.0.4.4
