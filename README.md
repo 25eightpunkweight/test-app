@@ -12,6 +12,8 @@ Things you may want to cover:
   - postgresql 12
 
 * Setting it up:
+  Run these following commands in your local machine:
+  
   ```sh
   $ git clone https://github.com/25eightpunkweight/test-app
   $ cd ajax-datatables-rails-sample-project
