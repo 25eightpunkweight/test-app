@@ -63,3 +63,6 @@ gem 'js-routes'
 gem 'responders' # if you are using rails 4.2+
 gem 'pry'
 # gem 'jquery-datatables'
+gem "haml"
+
+gem "rspec", "~> 3.10"
