@@ -35,4 +35,5 @@ Things you may want to cover:
 
 # Unit Testing:
   - run `bundle exec rspec` to run the unit tests on the `User` model.
-* ...
+
+#
