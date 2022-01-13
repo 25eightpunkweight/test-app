@@ -1,4 +1,4 @@
-class UserDatatable < AjaxDatatablesRails::Base
+class UsersDatatable < AjaxDatatablesRails::Base
 
   def view_columns
     # Declare strings in this format: ModelName.column_name
@@ -25,6 +25,10 @@ class UserDatatable < AjaxDatatablesRails::Base
         last_name: record.last_name,
         email: record.email,
         avatar: record.avatar,
+        # edit: link_to("edit"),
+        # edit: link_to("edit", edit_user_path(record)),
+        # delete: link_to("delete", record, method: :delete, data: { confirm: 'Are you sure?' }),
+        # delete: link_to("delete"),
         DT_RowId: record.id
       }
     end
