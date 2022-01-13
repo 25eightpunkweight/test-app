@@ -1,3 +1,21 @@
 // Place all the styles related to the User controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.container {
+  width: 80%;
+  padding: 50px 10px;
+}
+#users-datatable_filter,
+#users-datatable_length {
+  padding: 10px 10px;
+}
+
+.form-container{ 
+  margin: 0 auto;
+  width: fit-content;
+  height: 500px;
+}
+.form-container h1 {
+  padding: 30px 50px;
+}

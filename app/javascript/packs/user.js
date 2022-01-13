@@ -15,7 +15,10 @@ jQuery(document).ready(function() {
       // {"data": "avatar"}
       { "data": "avatar",
         render: function (data, type, row, meta) {
-          return '<img src="' + data + '" height="75" width="75"/>';
+          if (data) {
+            return '<img src="' + data + '" height="75" width="75"/>';
+          }
+          return '<p>No Image<br> Available!</p>';
         }
       },
       { "mRender": 

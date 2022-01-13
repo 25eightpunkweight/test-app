@@ -1,10 +1,7 @@
 <%= javascript_pack_tag 'user' %>
 
-<%= 
-  # button_to "Populate Users!" 
-%>
-
-<table id="users-datatable" data-source="<%= users_path(format: :json) %>">
+<div class="container">
+  <table id="users-datatable" data-source="<%= users_path(format: :json) %>">
   <thead>
     <tr>
       <th>ID</th>
@@ -17,8 +14,10 @@
   </thead>
   <tbody>
   </tbody>
-</table>
+  </table>
 
-<%= 
+  <%= 
   link_to "Create A New User", new_user_path(@user)
-%>
+  %>
+</div>
+

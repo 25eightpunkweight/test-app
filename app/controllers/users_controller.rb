@@ -1,6 +1,6 @@
 class UsersController < ApplicationController
   def index
-    TestClass.new.populate_users if !User.any?
+    # TestClass.new.populate_users if !User.any?
     respond_to do |format|
       format.html 
       format.json { render json: UsersDatatable.new(view_context) }
